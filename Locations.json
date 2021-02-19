@@ -1,0 +1,112 @@
+[
+  {
+    "city":"Wroclaw",
+    "weather":
+    {
+      "temperature":15.0,
+      "humidity":80.0,
+      "pressure":1024.0,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Walbrzych",
+    "weather":
+    {
+      "temperature":12.0,
+      "humidity":60.0,
+      "pressure":980.0,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Legnica",
+    "weather":
+    {
+      "temperature":20,
+      "humidity":20,
+      "pressure":1020,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Klodzko",
+    "weather":
+    {
+      "temperature":10,
+      "humidity":74,
+      "pressure":1040,
+      "date": "2021-01-16 10:49:51"
+    }
+
+  },
+
+  {
+    "city":"Jawor",
+    "weather":
+    {
+      "temperature":11,
+      "humidity":67,
+      "pressure":1004,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Swidnica",
+    "weather":
+    {
+      "temperature":16,
+      "humidity":23,
+      "pressure":982,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Jelenia Gora",
+    "weather":
+    {
+      "temperature":8,
+      "humidity":72,
+      "pressure":1050,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Lubin",
+    "weather":
+    {
+      "temperature":12,
+      "humidity":81,
+      "pressure":1013,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Glogow",
+    "weather":
+    {
+      "temperature":13,
+      "humidity":21,
+      "pressure":1031,
+      "date": "2021-01-16 10:49:51"
+    }
+  },
+
+  {
+    "city":"Boleslawiec",
+    "weather":
+    {
+      "temperature":21,
+      "humidity":10,
+      "pressure":999,
+      "date": "2021-01-16 10:49:51"
+    }
+  }
+]
