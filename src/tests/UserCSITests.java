@@ -1,5 +1,9 @@
+package tests;
+
 import org.junit.Assert;
 import org.junit.Test;
+import weather.*;
+
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -44,7 +48,7 @@ public class UserCSITests {
         user.addLocation(l);
 
         assertTrue(user.getSubs().contains(l));
-        assertEquals(user.getSubs().size(), 1);
+        Assert.assertEquals(user.getSubs().size(), 1);
         assertTrue(user.getWeatherHistory().get(l.getCity()).contains(l.getWeather()));
     }
 
@@ -77,9 +81,9 @@ public class UserCSITests {
         l.updateWeather(new Weather(10,10,900));
         user2.update(l);
 
-        assertEquals(user2.getAnalyzedData(l.getCity(),1), new ArrayList<Double>(Arrays.asList(10.0, 20.0, 15.0)));
-        assertEquals(user2.getAnalyzedData(l.getCity(),2), new ArrayList<Double>(Arrays.asList(10.0, 50.0, 30.0)));
-        assertEquals(user2.getAnalyzedData(l.getCity(),3), new ArrayList<Double>(Arrays.asList(900.0, 1000.0, 950.0)));
+        Assert.assertEquals(user2.getAnalyzedData(l.getCity(),1), new ArrayList<Double>(Arrays.asList(10.0, 20.0, 15.0)));
+        Assert.assertEquals(user2.getAnalyzedData(l.getCity(),2), new ArrayList<Double>(Arrays.asList(10.0, 50.0, 30.0)));
+        Assert.assertEquals(user2.getAnalyzedData(l.getCity(),3), new ArrayList<Double>(Arrays.asList(900.0, 1000.0, 950.0)));
     }
 
     @Test

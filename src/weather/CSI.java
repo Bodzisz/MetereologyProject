@@ -1,3 +1,7 @@
+package weather;
+
+import json.JsonParser;
+
 import java.util.*;
 
 public class CSI implements Observable{

@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package weather;
+
 import java.util.Objects;
 
 public class Location {

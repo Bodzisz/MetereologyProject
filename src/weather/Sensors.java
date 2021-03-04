@@ -1,4 +1,5 @@
-import java.util.ArrayList;
+package weather;
+
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Sensors implements  Runnable {
@@ -31,7 +32,7 @@ public class Sensors implements  Runnable {
         }
     }
 
-    void exit()
+    public void exit()
     {
         exit.set(true);
         System.out.println("Getting sensor's measurments stopped");

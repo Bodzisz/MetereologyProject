@@ -1,5 +1,6 @@
+package weather;
+
 import java.util.Random;
-import java.math.*;
 
 public class WeatherFactory {
 

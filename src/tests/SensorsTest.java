@@ -1,7 +1,9 @@
+package tests;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
+import weather.*;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;

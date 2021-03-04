@@ -1,4 +1,10 @@
+package weather;
+
 import com.google.gson.annotations.Expose;
+import weather.Location;
+import weather.Observer;
+import weather.Weather;
+import json.JsonParser;
 
 import java.util.*;
 
@@ -15,7 +21,7 @@ public class User implements Observer {
         JsonParser.serializeHashMap(weatherHistory,"dataRegister.json");
     }
 
-    void addLocation(Location l)
+    public void addLocation(Location l)
     {
         subs.add(l);
         if(!weatherHistory.containsKey(l.getCity()))
@@ -25,7 +31,7 @@ public class User implements Observer {
         }
     }
 
-    void removeLocation(Location l)
+    public void removeLocation(Location l)
     {
         subs.remove(l);
     }

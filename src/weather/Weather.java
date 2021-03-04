@@ -1,3 +1,5 @@
+package weather;
+
 import com.google.gson.annotations.Expose;
 
 import java.time.format.DateTimeFormatter;
